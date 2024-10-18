@@ -58,19 +58,30 @@ footer{
 
 .navbar ul{
   list-style-type: none ;
-  background-color: #111111;
+  background-color: #010101;
   padding: 0px;
   margin: 0px;
   overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+  display: flex;
 }
 .navbar a{
   color: #0090FF;
   text-decoration: none; 
   padding: 15px;
-  display: block;
   text-align: center;
-  justify-content: flex-start;
 }
-.navbar li{
-  float: right;
+
+footer{
+  display: flex;
+  text-align: center;
+  bottom: 0;
+  padding: 20px;
+  position: fixed;
+  justify-content: center ;
+  width: 100%;
+}
+#barclays{
+  color: #0090FF;
 }
